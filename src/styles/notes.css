@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px; /* Ширина поля ввода */
+    margin-right: 10px; /* Отступ между полем ввода и кнопкой */
+    border: 1px solid #ccc; /* Рамка для поля ввода */
+    border-radius: 4px; /* Закругленные углы */
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #5cb85c; /* Цвет кнопки */
+    color: white; /* Цвет текста на кнопке */
+    border: none; /* Убираем рамку */
+    border-radius: 4px; /* Закругленные углы */
+    cursor: pointer; /* Указатель для курсора при наведении */
+  }
+  
+  button:hover {
+    background-color: #4cae4c; /* Цвет кнопки при наведении */
+  }
+  
+  .note-container {
+    display: flex; /* Используем flexbox для выравнивания заметок */
+    flex-wrap: wrap; /* Позволяем переносить заметки на новую строку при переполнении */
+    justify-content: center; /* Центрируем заметки */
+    gap: 20px; /* Отступ между заметками */
+  }
+  
+  .note {
+    background-color: white; /* Фон заметки */
+    border: 1px solid #ccc; /* Рамка заметки */
+    border-radius: 4px; /* Закругленные углы */
+    padding: 20px; /* Отступ внутри заметки */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень для заметки */
+    min-width: 150px; /* Минимальная ширина заметки */
+    text-align: center; /* Выравнивание текста по центру */
+  }
+  
+  .delete-button {
+    background-color: #d9534f; /* Цвет кнопки удаления */
+    border: none; /* Убираем рамку */
+    border-radius: 4px; /* Закругленные углы */
+    padding: 5px 10px; /* Отступ для кнопки удаления */
+    color: white; /* Цвет текста на кнопке удаления */
+    cursor: pointer; /* Указатель для курсора при наведении */
+  }
+  
+  .delete-button:hover {
+    background-color: #c9302c; /* Цвет кнопки удаления при наведении */
+  }
+
+  button.refresh-button {
+    background-color: #0275d8; /* Цвет кнопки обновления */
+  }
+  
+  button.refresh-button:hover {
+    background-color: #025aa5; /* Цвет кнопки обновления при наведении */
+  }
+  
